@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/live-stocks-app/static/css/main.b100e6da.chunk.css",
+    "main.js": "/live-stocks-app/static/js/main.fd2483f7.chunk.js",
+    "main.js.map": "/live-stocks-app/static/js/main.fd2483f7.chunk.js.map",
+    "runtime-main.js": "/live-stocks-app/static/js/runtime-main.c0e2e6c1.js",
+    "runtime-main.js.map": "/live-stocks-app/static/js/runtime-main.c0e2e6c1.js.map",
+    "static/js/2.7fea46ba.chunk.js": "/live-stocks-app/static/js/2.7fea46ba.chunk.js",
+    "static/js/2.7fea46ba.chunk.js.map": "/live-stocks-app/static/js/2.7fea46ba.chunk.js.map",
+    "index.html": "/live-stocks-app/index.html",
+    "precache-manifest.8af343157b8559dc44ffe5d5ec08a456.js": "/live-stocks-app/precache-manifest.8af343157b8559dc44ffe5d5ec08a456.js",
+    "service-worker.js": "/live-stocks-app/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/live-stocks-app/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/live-stocks-app/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0e2e6c1.js",
+    "static/js/2.7fea46ba.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.fd2483f7.chunk.js"
+  ]
+}
