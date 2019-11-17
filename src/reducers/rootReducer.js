@@ -5,6 +5,6 @@ import stocksReducer from './stocksReducer';
 
 export default combineReducers({
     simpleReducer,
-    webSocketReducer,
+    webSocket: webSocketReducer,
     stocks: stocksReducer
 });

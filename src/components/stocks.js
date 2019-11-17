@@ -4,23 +4,13 @@ import StocksTable from './stocks-table';
 import './stocks.css'
 
 class Stocks extends Component {
-    constructor(props) {
-        super(props);
-    }
-
-    renderError = () => (
-        <div>
-            No data to show
-        </div>
-    );
-
     render() {
         const stocksProps = this.props.stocks && Object.keys(this.props.stocks).length ?
             this.props.stocks : {};
         return (
             <div className="card container">
                 <header className="App-header">
-                    Live Stocks
+                    Live Stock Updates [{this.props.connected ? "Connected" : "Connecting"}]
                 </header>
                 {
                     Object.keys(stocksProps).length ?
@@ -33,7 +23,8 @@ class Stocks extends Component {
 }
 
 const mapStateToProps = (state) => ({
-    stocks: state.stocks ? state.stocks.current : {}
+    stocks: state.stocks ? state.stocks.current : {},
+    connected: state.webSocket && state.webSocket.connected ? true : false
 })
 
 const StocksComponent = connect(mapStateToProps)(Stocks);

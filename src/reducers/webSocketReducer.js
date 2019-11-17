@@ -1,8 +1,6 @@
-const websocketInitialState = {};
-
-export default (state = { ...websocketInitialState }, action) => {
+export default (state = {}, action) => {
     switch (action.type) {
-        case 'WS_CONNECT':
+        case 'WS_CONNECTED':
             return { ...state, host: action.host, connected: true };
         default:
             return state;

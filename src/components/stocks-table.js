@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './stocks.css'
 
 export default class StocksTable extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     renderRows = (props) => {
         const stocks = Object.keys(props);
         return stocks.map((stock) => {
