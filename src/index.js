@@ -12,7 +12,7 @@ ReactDOM.render(
         <WebSocketConnection
             host={'ws://stocks.mnet.website'}
         >
-            <App />,
+            <App />
       </WebSocketConnection>
     </Provider>,
     document.getElementById('root')

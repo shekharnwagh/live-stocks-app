@@ -25,7 +25,7 @@ export const addTrends = (previous, newUpdate) => {
             ...stocksObj,
             [stock]: {
                 ...newUpdate[stock],
-                chnage: parseFloat(change.toFixed(2)),
+                change: parseFloat(change.toFixed(2)),
                 trend
             }
         }
