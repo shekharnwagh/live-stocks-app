@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "568c54c2948ac2d94f8d474e2fee3fbc",
+    "revision": "18780b807019f1c1d56eb43ff2d35d3a",
     "url": "/live-stocks-app/index.html"
   },
   {
-    "revision": "9efbe5d09b3e4a1a5525",
+    "revision": "ee019fcf1c5686bda94d",
     "url": "/live-stocks-app/static/css/main.eeda12fa.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/live-stocks-app/static/js/2.f59bbc68.chunk.js"
   },
   {
-    "revision": "9efbe5d09b3e4a1a5525",
-    "url": "/live-stocks-app/static/js/main.b75c26f6.chunk.js"
+    "revision": "ee019fcf1c5686bda94d",
+    "url": "/live-stocks-app/static/js/main.92f65bea.chunk.js"
   },
   {
     "revision": "f6f66b87bd87d3b7ebd1",
