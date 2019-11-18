@@ -9,7 +9,7 @@ export default class StocksTable extends Component {
             const lastUpdate = time.fromNow(true);
             const className = trend==="UP" ? "bg-success font-white" : trend==="DOWN" ? "bg-danger font-white" : ""
             return (
-                <tr className={className}>
+                <tr className={className} key={stock}>
                     <td>{ name }</td>
                     <td>{ value }</td>
                     <td>{ lastUpdate }</td>
